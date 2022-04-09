@@ -86,5 +86,5 @@ jobs:
           id: deploy-to-webapp
           with:
             app-name: 'hol-azure-web-app-deploy/staging1'
-            slot-name: 'Production'
+            slot-name: 'staging1'
             publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B56F6390AFCE439EBAC9AB62073C994B }}
